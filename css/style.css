@@ -1,0 +1,44 @@
+:root {
+    --frecciarossa-color: #b71139;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--frecciarossa-color);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.frecciarossa-color,
+#price {
+    color: var(--frecciarossa-color);
+}
+
+.frecciarossa-bg{
+    background-color: var(--frecciarossa-color);
+}
+
+.custom-container {
+    min-width: 260px;
+    max-width: 400px;
+    width: 100%;
+    height: 525px;
+}
+
+.check-in {
+    margin: auto;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    width: 119.5px;
+}
+
+.custom-bottom-badge {
+    height: 50px;
+    width: 90%;
+    background-color: #f2f3f7;
+}
