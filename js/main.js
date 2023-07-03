@@ -15,7 +15,8 @@ document.getElementById("date").innerHTML = `${currentDate}`
 
 // Evento al click del bottone "Reset"
 btnReset.addEventListener("click", function () {
-    biglietto.classList.replace("d-block", "d-none");
+    // biglietto.classList.replace("d-block", "d-none");
+    location.reload();
 })
 
 // Evento al click del bottone "Genera"
@@ -37,6 +38,7 @@ btnGenerate.addEventListener("click", function () {
     // Validazione dati inseriti
     if (isNaN(kilometers) || kilometers <= 0 || isNaN(userAge)) {
         alert("Ricarica la pagina e inserisci dei dati validi");
+        location.reload();
     }
 
     // Calcolo kilometri * prezzo al kilometro
