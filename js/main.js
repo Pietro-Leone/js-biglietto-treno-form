@@ -15,7 +15,6 @@ document.getElementById("date").innerHTML = `${currentDate}`
 
 // Evento al click del bottone "Reset"
 btnReset.addEventListener("click", function () {
-    // biglietto.classList.replace("d-block", "d-none");
     location.reload();
 })
 
